@@ -1,0 +1,34 @@
+.phone {
+    position: relative;
+    width: $phoneW;
+    height: $phoneH;
+    margin: 2rem auto 2rem;
+    padding: $padVert $padSide;
+    background-color: #f8f8f8;
+    border-radius: 56px;
+  
+    @media (max-width: 480px) {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      border-radius: 0;
+    }
+  
+    &__screen {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: $bg-night;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &__content {
+      position: relative;
+      padding-top: 30px;
+    }
+  }

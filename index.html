@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projet Edenschool</title>
+</head>
+
+<body>
+    <div class="phone" ng-app="delivcard">
+        <div class="phone__screen">
+          <div class="phone__scroll-cont">
+            <div class="phone__content" ng-controller="DelivCtrl">
+                <div class="container">
+                    <h1>Météo</h1>
+                    <input type="text" class="inputTxt" placeholder="Entrer une ville ...."><br>
+                    <input type="submit" value="Obtenir la température" class="btn">
+                    <div class="showData"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
